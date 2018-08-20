@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Rate" />
+        <item
+            android:id="@+id/_reset"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Reset App" />
+
+
+    </group>
+
+
+    <item android:title="The Tables">
+        <menu>
+            <item
+                android:id="@+id/_overview"
+                android:title="Tables Structure" />
+
+            <item
+                android:id="@+id/_office"
+                android:title="_office" />
+
+            <item
+                android:id="@+id/_vehicles"
+                android:title="_vehicles" />
+            <item
+                android:id="@+id/_clients"
+                android:title="_clients" />
+
+        </menu>
+    </item>
+
+</menu>
